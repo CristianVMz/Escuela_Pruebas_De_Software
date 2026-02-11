@@ -1,0 +1,48 @@
+
+Se va a dividir en 3 fases las preguntas si se elige situacion formal
+
+--------------------------------------------------------------------------
+
+1 fase: Datos personales
+
+- Nombre completo
+- Edad
+- Genero
+- Objetivo financiero
+
+--------------------------------------------------------------------------
+
+2 fase: Datos socieconomicos
+
+- Cuantos has generado bruto estos ultimos X meses (pedir minimo 3 meses y maximo 2 años)
+- Cual es el porcentaje neto que generas cada mes (Implementar la opcion no se, y ayudarlo a sacarlo)
+- Haz pagado impuestos (Si o No)
+(Si la opcion es no desplegar las siguientes preguntas)
+--- ¿Te gustaria que se te proporcionara un pdf con conceptos clave sobre el SAT y los impuestos ? (Si o No)
+--- Darle un link para (Si la opciones es SI, desplegar el link)
+¿Cual es tu gasto mensual en
+
+
+
+
+--------------------------------------------------------------------------
+
+3 fase: Conocimiento de finanzas
+
+
+
+
+
+
+--------------------------------------------------------------------------
+Elige un nombre de usuario:
+
+Usuario:
+
+--------------------------------------------------------------------------
+¿En que situacion laboral te encuentras?
+Opcion 1: Formal
+Opcion 2: Informal
+
+---------------------------------------------------------------------------
+

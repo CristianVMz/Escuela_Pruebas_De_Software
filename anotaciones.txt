@@ -1,0 +1,12 @@
+ID: RF-004
+Requerimiento: Categorizar gastos
+Sugerencia: Permitir al usuario gestionar el nombre de la categoria (agregar, eliminar, modicar) y crear subcategroias y
+poder gestionarlos tambien
+
+ID: Requerimiento nuevo
+Requerimiento: Funcional
+Sugerencia: Desplegar los gastos 
+
+ID: Requerimiento nuevo
+Requerimiento: Funcional
+Sugerencia: Agregar el historial de cambios de nombre de las categorias

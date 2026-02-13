@@ -29,36 +29,153 @@
 
 
  <!-- ************************************************************************************** -->
+<h1 class="h1_quiz"> Datos</h1>
 
 <div class="body_login">
   <div class="main">
-  <h1 class="h1_quiz"> Cuestionario</h1>
+  
   <h3>----------------------------------------</h3>
 <form action="POST">
-  <p>¿Cuál es tu situación laboral actualmente?</p>
+  <p class="p_quiz">¿Cuál es tu situación laboral actualmente?</p>
 
   <ul class="ul_quiz">
     <li>
-      <input class="options-container" type="radio" id="choiceA" name="css_question" value="A">
+      <input class="options-container" type="radio" id="choiceA" name="css_question" value="Formal">
       <label for="choiceA">Formal</label>
     </li>
     <li>
-      <input class="options-container" type="radio" id="choiceB" name="css_question" value="B">
+      <input class="options-container" type="radio" id="choiceB" name="css_question" value="Informal" >
       <label for="choiceB">Informal</label>
     </li>
-  </ul> <button class="button_login">
+  </ul> 
+
+  <button class="button_login">
     Siguiente
   </button>
 </form>
 
   </form>
+
+  </div>
+</div>
+<!-- ************************************************************************************** -->
+
+<div class="body_login">
+  <div class="main">
+<form> 
+ <label for="user_real_name"> Nombre completo </label>
+ <input type="text" name="user_real_name" id="user_real_name" required placeholder="Apellido paterno/ Apellido Materno/ Nombre">
+
+ <label for="user_real_age"> Edad </label>
+ <input type="number" name="user_real_age" id="user_real_age" required placeholder="Edad" required>
+  <p class="p_quiz">¿Cuál es tu sexo?</p>
+<ul class="ul_quiz">
+    <li>
+      <input class="options-container" type="radio" id="genero_1" name="sexo" value="Masculino">
+      <label for="genero_1">Masculino</label>
+    </li>
+    <li>
+      <input class="options-container" type="radio" id="genero_2" name="sexo" value="Femenino" >
+      <label for="genero_2">Femenino</label>
+    </li>
+  </ul> 
+  <button class="button_login">
+    Siguiente
+  </button>
+</form>
+</div>
+</div>
+
+
  <!-- ************************************************************************************** -->
+
+ <!-- Formal -->
+<div class="body_login">
+  <div class="main">
+<form> 
+
+<div class="label_quizi">
+<label for="tiempo" >Indica el mes de inicio para el histórico de salarios (mínimo 3 meses atrás):"</label>
+<select id="tiempo" name="tiempo">
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+   
+</select>
+</div>
+
+
+<label for="salario">¿Cuánto percibes en salario bruto mensualmente? </label>
+<input type="number" name="salario" id="salario" placeholder="Salario" required>
+
+
+ <button class="button_login">
+    Siguiente
+  </button>
+
+</form>
+</div>
+</div>
+
+ <!-- ************************************************************************************** -->
+<div class="body_login">
+  <div class="main">
+    <form> 
+
+<p class="p_quiz">¿En tu trabajo te dan comisiones?</p>
+<ul class="ul_quiz">
+    <li>
+      <input class="options-container" type="radio" id="Si" name="comision" value="Si">
+      <label for="genero_1">Si</label>
+    </li>
+    <li>
+      <input class="options-container" type="radio" id="No" name="comision" value="No" >
+      <label for="genero_2">No</label>
+    </li>
+
+
+  </ul> 
+<label for="comisiones">¿Cuánto percibes en comisiones el mes X? </label>
+<input type="number" name="comisiones" id="comisiones" placeholder="Cantidad">
+
+<label for="comisiones">¿Cuánto percibes en comisiones el mes X? </label>
+<input type="number" name="comisiones" id="comisiones" placeholder="Cantidad">
+
+
+<p class="p_quiz">¿Deseas sumar otros montos extra (bonos u otros) al salario de los últimos X meses?</p>
+<ul class="ul_quiz">
+    <li>
+      <input class="options-container" type="radio" id="Si_extra" name="extra" value="Si">
+      <label for="Si_extra">Si</label>
+    </li>
+    <li>
+      <input class="options-container" type="radio" id="No_extra" name="extra" value="No" >
+      <label for="No_extra">No</label>
+    </li>
+</ul>
+
+<label for="extra">Extras: </label>
+<input type="extra" name="salario" id="salario" placeholder="Salario" required>
+
+<button class="button_login">
+    Siguiente
+  </button>
+
+
+</form>
 </div>
 </div>
 
 
 
-
+ <!-- ************************************************************************************** -->
 
 </body>
 

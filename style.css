@@ -276,7 +276,10 @@ display: block;
 
 
 .alinacion{
-   align-items: baseline;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
 
 }
 
@@ -546,3 +549,466 @@ margin-top: 60px;
 margin-left: 40px;
 
  }
+
+ .perfil-text{
+   margin: 0 auto;
+    margin-left: 15px;
+
+ }
+
+ .perfil-container{
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 0px;
+   margin-right: 100px;
+ }
+
+ .perfil-image{
+width: 80px;
+height: 80px;
+border-radius: 50%;     /* Opcional: hace la foto circular */
+    object-fit: cover;
+
+ }
+
+ .news-image{
+   background-size: cover;
+   background-position: center;
+   margin: 0 auto;
+   height: 50%;
+   width: 50%;
+   display: flex;
+     flex-direction: column;
+   color: black;                
+    margin-top: 70px;
+    border-radius: 75px;
+   }
+
+
+   .block-taxes{
+background-color: #E2DEDC;
+flex: 0.6;
+border: 1px solid #aaa; 
+
+padding: 15px;
+border-radius: 100px;
+margin-left: 40px;
+transition: border-color .7s, color .7s, opacity 0.7s;
+   
+}
+.block-taxes:hover{
+    transition: ;
+        opacity: 0.7;
+       
+       
+              border-color: black;
+       
+
+       }
+
+
+  .block-category{
+background-color:#010101 ;
+flex: 0.6;
+border: 1px solid #aaa; 
+padding: 15px;
+border-radius: 100px;
+margin-top: 80px;
+margin-right: 40px;
+margin-left: 180px;
+transition: transition .7s, color .7s, opacity 0.7s;
+}
+.block-category:hover{
+    transition: ;
+                
+           opacity: 0.8;
+              border-color: #400707;
+       
+
+       }
+
+   .block-invesment{
+background-color: #010101;
+flex: 0.6;
+border: 1px solid #aaa; 
+padding: 15px;
+border-radius: 100px;
+margin-left: 40px;
+transition: background-color .7s, color .7s, opacity 0.7s;   
+}
+.block-invesment:hover{
+    transition: ;
+        opacity: 0.8;
+         border-color: #400707;
+       
+
+       }
+
+  .block-news{
+background-color: #E2DEDC;
+flex: 0.6;
+border: 1px solid #aaa; 
+box-shadow: inset 0 0 15px rgba(255,255,255,0.5), 0 5px 15px rgba(0,0,0,0.3);
+padding: 15px;
+border-radius: 100px;
+margin-top: 80px;
+margin-right: 40px;
+margin-left: 180px;
+transition: background-color .7s, color .7s, opacity 0.7s;
+}
+.block-news:hover{
+    transition: ;
+        opacity: 0.7;
+        
+              border-color: black;
+       
+
+       }
+
+.icon{
+    
+
+    width: 80px;
+    height: 60px;
+}
+
+
+.p-modulos-g{
+font-size: 18px;
+font-family: monospace;
+margin-left: 40px;
+
+}
+
+.p-modulos-n{
+font-size: 18px;
+font-family: monospace;
+margin-left: 40px;
+color: white;
+
+}
+
+.image-banner-duda{
+background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), 
+                     url('/home/planton/Project/Images/duda.png');
+ 
+   width: 286px;
+   height: 400px;  
+   
+   display: flex;
+   align-items: center;
+   margin: 0 auto;              
+   margin-top: 70px;
+   border-radius: 75px;
+   flex-direction: column;
+   background-size: cover;
+   }
+ .p-duda-text-title{
+    color: navajowhite;
+    font-size: 20px;
+    margin-top: 35px;
+ }
+
+  .p-duda-text{
+    color: white;
+    font-size: 17px;
+    margin-top: 50px;
+ }
+
+        .p-duda-button{
+    background-color: white;
+        border-color: white;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 40px;
+        border-radius: 15px;
+        cursor: pointer;
+        border-style: solid;
+        transition: background-color .5s, color .5s, opacity 0.5s;
+        margin: 0 auto;
+        margin-top: 109px;
+       }
+
+.p-duda-button:hover{
+        opacity: 0.9;
+        background-color: blue;
+        color: white;
+              border-color: blue;
+       
+
+       }
+
+.centro{
+  display: flex;
+  justify-content: center;
+
+}
+
+.linea-negra{
+background: linear-gradient(
+        145deg, 
+        #121111 0%, 
+        #211313 20%, 
+        #333 40%, 
+        #333 60%, 
+        #211313 80%, 
+        #121111 100%
+    );
+    border: 1px solid #aaa; 
+    box-shadow: inset 0 0 15px rgba(255,255,255,0.5), 0 5px 15px rgba(0,0,0,0.3);
+ padding: 15px;
+ padding-right: 0pxs;
+ border-radius: 100px;
+ width: 40%;           
+    max-width: 1000px;    
+    margin: 0 auto;
+}
+
+.linea-gris{
+background-color: #877878;
+margin: 100px auto 0;
+    border: 1px solid #aaa; 
+    box-shadow: inset 0 0 15px rgba(255,255,255,0.5), 0 5px 15px rgba(0,0,0,0.3);
+ padding: 15px;
+ padding-right: 0pxs;
+ border-radius: 100px;
+ width: 65%;    
+ display: flex;
+ justify-content: center;
+ color: white;       
+    max-width: 1000px;    
+   font-size: 18px;
+}
+
+.alinacion-buttons{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+
+.button_tax_1{
+        background-color: white;
+        border-color: black;
+        color: black;
+        height: 35px;
+        width: 100px;
+        border-radius: 15px;
+        cursor: pointer;
+        border-style: solid;
+        transition: background-color .5s, color .5s, opacity 0.5s;
+        margin-top: 100px;
+       }
+
+
+
+.button_tax_1:hover{
+        opacity: 0.9;
+        background-color: black;
+        color: white;
+              border-color: black;
+       
+
+       }
+
+.button_tax_2{
+        background-color: white;
+        border-color: black;
+        color: black;
+        height: 35px;
+        width: 100px;
+        border-radius: 15px;
+        cursor: pointer;
+        border-style: solid;
+        transition: background-color .5s, color .5s, opacity 0.5s;
+        margin-top: 100px;
+        margin-right: 60px;
+        margin-left: 60px;
+       }
+
+
+
+.button_tax_2:hover{
+        opacity: 0.9;
+        background-color: black;
+        color: white;
+              border-color: black;
+       
+
+       }
+
+.button_tax_3{
+        background-color: white;
+        border-color: black;
+        color: black;
+        height: 35px;
+        width: 100px;
+        border-radius: 15px;
+        cursor: pointer;
+        border-style: solid;
+        transition: background-color .5s, color .5s, opacity 0.5s;
+        margin-top: 100px;
+       }
+
+
+
+.button_tax_3:hover{
+        opacity: 0.9;
+        background-color: black;
+        color: white;
+              border-color: black;
+       
+
+       }
+
+
+.block-tax{
+  margin: 70px auto 0;
+  background-color: beige;
+  width:705px;
+  height:500px;
+
+  border-radius: 150px;
+}
+
+.p-block-text-tax{
+
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.block-category{
+background-color: beige;
+width: 70%;
+height: 300px;
+margin-top: 60px;
+margin-left: 50px;
+border-radius: 150px;
+}
+
+.h1-category-text{
+    display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 17px;
+
+
+}
+
+
+.h1-category-text-title{
+    display: flex;
+  justify-content: center;
+  font-size: 21px;
+.h1-category-text{
+    display: flex;
+  justify-content: center;
+
+}
+}
+
+.alinear-bloque{
+    display: flex;
+    align-items: center;
+}
+
+.button_category{
+        background-color: white;
+        border-color: black;
+        color: black;
+        height: 35px;
+        width: 100px;
+        border-radius: 15px;
+        cursor: pointer;
+        border-style: solid;
+        transition: background-color .5s, color .5s, opacity 0.5s;
+margin-top: 10px;
+margin-left: 240px;
+       }
+
+
+
+.button_category:hover{
+        opacity: 0.9;
+        background-color: black;
+        color: white;
+              border-color: black;
+       
+
+       }
+
+
+.invest-block{
+background-color: beige;
+width: 1028px;
+height: 100px;
+border-radius: 100px;
+margin: 100px auto;
+}
+
+.derecha{
+    display: flex;
+ align-items: flex-start;
+}
+
+.izquierda{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.invest-money-text{
+ margin-top: 38px;
+ margin-left: 50px;
+ font-size: 25px;
+
+}
+
+.button_invest{
+        background-color: white;
+        border-color: black;
+        color: black;
+        height: 35px;
+        width: 100px;
+        border-radius: 15px;
+        cursor: pointer;
+        border-style: solid;
+        transition: background-color .5s, color .5s, opacity 0.5s;
+        margin-top: 10px;
+        margin-left: 70px;
+       }
+
+
+
+.button_invest:hover{
+        opacity: 0.9;
+        background-color: black;
+        color: white;
+              border-color: black;
+       
+
+       }
+
+.acciones-backgorund{
+
+    background-color: beige;
+    width: 1028px;
+    margin: 100px auto;
+    height: 600px;
+    border-radius: 100px;
+}
